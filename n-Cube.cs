@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace Компьютерная_математика
 {
-    class n_Cube
+    public class n_Cube
     {
-        public Node[] mNodes;
+        public Dictionary<bool[],Node> mNodes;
         public Node[][] n_cube;
         public int n;
         public Node[] startNodes;
+        public int countLight;
 
         public n_Cube(String input)
         {
@@ -20,10 +21,10 @@ namespace Компьютерная_математика
 
         public void clear()
         {
-            //все точки куба l=0,p=0,m=0
+            //все точки куба l=0,p=0,m=0 dd
         }
 
-        public void repoint(bool[][] points)
+        public void repoint(bool[][] vectors)
         {
             //очистить куб, потом поставить l=1 у нужных вершин
         }

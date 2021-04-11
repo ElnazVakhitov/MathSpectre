@@ -9,9 +9,9 @@ namespace Компьютерная_математика
     public class Node
     {
         public Node[] linked;
-        public int l;
-        public int b;
-        public int k;
+        public bool l;
+        public int p;
+        public int m;
         public bool[] vector;
         public long index;
 
